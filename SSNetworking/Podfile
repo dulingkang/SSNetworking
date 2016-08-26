@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+
+target 'SSNetworking' do
+   pod 'AFNetworking', '~> 3.1.0'
+  target 'SSNetworkingTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
